@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Portion */
+
+header {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 68px;
+}
+
+header h1 {
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 139px;
+}
+
+header img {
+  height: 438px;
+  width: 556.0103149414062px;
+  padding-bottom: 86px;
+}
+
+.button {
+  width: 168px;
+  height: 44px;
+  margin-top: 27px;
+  color: white;
+  background-color: #e02c6d;
+  border-style: none;
+}
+
+/* ----------------
+Main Section 
+------------------*/
+main {
+  padding-left: 180px;
+  padding-right: 210px;
+  padding-top: 70px;
+  background-color: rgba(202, 193, 243, 0.274);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+  justify-content: center;
+}
+.placeholder {
+  height: 456px;
+  width: 330px;
+}
+
+.player {
+  height: 426px;
+  width: 300px;
+  border-radius: 0px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.player img {
+  height: 256px;
+  width: 300px;
+}
+
+.player .player-name {
+  color: black;
+  font-size: 28px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+.player .player-info {
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-bottom: 18px;
+}
+
+/* --------------------
+Footer Style
+---------------------- */
+
+.footer {
+  height: 213px;
+  width: 483.87103271484375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 158px;
+}
+
+.footer img {
+  height: 110px;
+  width: 100%;
+}
+
+.footer-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .icon {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .icon i {
+  margin-right: 0.5rem;
+}
